@@ -18,7 +18,7 @@ const socketCloseListener = (event) => { // Closed
    if (mySocket) {
       console.error('Disconnected.');
    }
-   mySocket = new WebSocket('ws://192.168.15.3:8080');
+   mySocket = new WebSocket('ws://191.252.223.139:8080');
    mySocket.addEventListener('open', socketOpenListener);
    mySocket.addEventListener('message', socketMessageListener);
    mySocket.addEventListener('close', socketCloseListener);
