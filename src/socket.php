@@ -106,3 +106,4 @@ class Socket implements MessageComponentInterface {
         $this->setLog("Erro na conexão ID ({$conn->resourceId})");
     }
 }
+?>
