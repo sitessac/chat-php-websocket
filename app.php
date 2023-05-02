@@ -16,7 +16,7 @@ $server = IoServer::factory(
             new Socket()
         )
     ),
-    8081
+    8002
 );
 
 $server->run();
