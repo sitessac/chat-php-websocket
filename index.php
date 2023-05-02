@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>WebSocket em PHP | Eduardo Palandrani</title>
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="/css/normalize.css">
         <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
         <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link rel="icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/servers-clouds-colored/80/websocket-web-socket-protocol-512.png">
     </head>
     <body>
