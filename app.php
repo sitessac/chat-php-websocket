@@ -6,7 +6,7 @@
 use Ratchet\Server\IoServer;
 use Ratchet\Http\HttpServer;
 use Ratchet\WebSocket\WsServer;
-use WebSockets\Socket;
+use WebSockets\socket;
 
 require 'vendor/autoload.php';
 
@@ -16,7 +16,7 @@ $server = IoServer::factory(
             new Socket()
         )
     ),
-    8002
+    8008
 );
 
 $server->run();
